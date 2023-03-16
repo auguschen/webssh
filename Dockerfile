@@ -6,4 +6,4 @@ RUN pip install webssh -i https://pypi.tuna.tsinghua.edu.cn/simple --no-cache-di
 
 EXPOSE 8888
 
-CMD wssh
+CMD wssh --encoding='utf-8'
